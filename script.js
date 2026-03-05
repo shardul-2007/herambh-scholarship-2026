@@ -1,5 +1,1 @@
-function scrollToForm(){
-document.getElementById("apply").scrollIntoView({
-behavior: "smooth"
-});
-}
+alert("Welcome to Herambh Scholarship Website");
