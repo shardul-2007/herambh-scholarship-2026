@@ -1,85 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Late Herambh Deval Memorial Scholarship</title>
-
+<title>Herambh Deval Memorial Scholarship</title>
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<nav>
-
-<h2>Herambh Scholarship</h2>
-
-<ul>
-
-<li><a href="#">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#eligibility">Eligibility</a></li>
-<li><a href="#apply">Apply</a></li>
-
-</ul>
-
-</nav>
-
 <header>
-
-<h1>Late Herambh Deval Memorial Scholarship</h1>
-
-<p>Scholarship Scheme 2026-27</p>
-
-<a href="#apply">
-
-<button class="mainbtn">Apply Now</button>
-
-</a>
-
+<h1>Herambh Deval Memorial Scholarship</h1>
+<p>Supporting Students for a Better Future</p>
 </header>
 
-<section id="about">
-
+<section class="about">
 <h2>About Scholarship</h2>
-
 <p>
-
-The Late Herambh Deval Memorial Scholarship supports talented and deserving students
-to continue their education without financial barriers.
-
+The Herambh Deval Memorial Scholarship supports talented and hardworking students
+who need financial help to continue their education.
 </p>
 
+<button onclick="showForm()">Apply Now</button>
 </section>
 
-<section id="eligibility">
+<section id="applyForm" class="form-section">
+<h2>Scholarship Application</h2>
 
-<h2>Eligibility Criteria</h2>
+<form id="scholarshipForm">
 
-<div class="card">
+<input type="text" placeholder="Full Name" required>
 
-✔ Students studying in School or College
+<input type="email" placeholder="Email Address" required>
 
-</div>
+<input type="text" placeholder="Mobile Number" required>
 
-<div class="card">
+<input type="text" placeholder="College / School Name" required>
 
-✔ Good Academic Performance
+<input type="number" placeholder="Last Exam Percentage" required>
 
-</div>
+<textarea placeholder="Why do you deserve this scholarship?" required></textarea>
 
-<div class="card">
+<button type="submit">Submit Application</button>
 
-✔ Financially Needy Students
+</form>
 
-</div>
+<p id="successMsg"></p>
 
 </section>
 
-<section>
+<footer>
+<p>© 2026 Herambh Deval Memorial Scholarship</p>
+</footer>
 
-<h2>
+<script src="script.js"></script>
+
+</body>
+</html>
